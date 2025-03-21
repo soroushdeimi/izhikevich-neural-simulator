@@ -1,23 +1,6 @@
 # Izhikevich Neural Simulator
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
 Hey there! This is a Python project I built for simulating spiking neurons using the Izhikevich model. Whether you're looking to simulate a single neuron or an entire network, this toolkit has you covered with plenty of customization options.
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x300?text=Neuron+Simulation+Visualization" alt="Neural Simulation Example">
-</p>
-
-## Table of Contents
-- [About the Izhikevich Model](#about-the-izhikevich-model)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## About the Izhikevich Model
 
