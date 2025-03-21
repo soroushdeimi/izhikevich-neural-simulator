@@ -46,8 +46,8 @@ Getting started is pretty simple:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/sa-now.git
-cd sa-now
+git clone https://github.com/yourusername/izhikevich-neural-simulator.git
+cd izhikevich-neural-simulator
 
 # Create and activate a virtual environment (recommended)
 python -m venv venv
@@ -63,7 +63,7 @@ Here's a quick example to get you started with a single neuron:
 
 ```python
 # Example usage for single neuron simulation
-from sa_now import SingleNeuron
+from izhikevich_neural_simulator import SingleNeuron
 
 # Create a regular spiking neuron
 neuron = SingleNeuron(a=0.02, b=0.2, c=-65, d=8)
@@ -93,7 +93,7 @@ One of the coolest things about the Izhikevich model is that you can simulate di
 Simulating a network is just as straightforward:
 
 ```python
-from sa_now import NeuralNetwork
+from izhikevich_neural_simulator import NeuralNetwork
 
 # Create a network of 1000 neurons
 network = NeuralNetwork(num_neurons=1000, exc_ratio=0.8)
@@ -114,7 +114,3 @@ Found a bug? Have a cool idea? Contributions are always welcome!
 3. Commit your changes (`git commit -m 'Add some awesome feature'`)
 4. Push to the branch (`git push origin feature/awesome-idea`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
