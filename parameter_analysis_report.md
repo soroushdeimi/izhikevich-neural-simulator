@@ -1,7 +1,5 @@
 # Izhikevich Neuron Parameter Analysis: Visual Data
 
-This report provides visual analysis of how each parameter in the Izhikevich model affects neural behavior, complementing the more narrative explanations in the main report.
-
 ## Parameter Effects on Neural Dynamics
 
 ### Parameter a Analysis (Recovery Time Scale)
