@@ -1,7 +1,4 @@
 # Izhikevich Neuron Parameter Behavior Summary
-
-The Izhikevich neuron model uses four parameters (a, b, c, d) to simulate a wide variety of neuronal firing patterns. This document summarizes how each parameter affects neuron behavior.
-
 ## Parameter Effects
 
 ### Parameter a (0.01 - 0.1)
