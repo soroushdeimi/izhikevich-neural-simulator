@@ -4,10 +4,13 @@ Hey there! I've been working with the Izhikevich model for a while now, and I th
 
 First, let's remember the basic equations (don't worry if the math looks scary - I'll explain everything in plain language):
 
+```math
+\frac{dv}{dt} = 0.04v^2 + 5v + 140 - u + I
 ```
-dv/dt = 0.04v² + 5v + 140 - u + I
-du/dt = a(bv - u)
+```math
+\frac{du}{dt} = a(bv - u)
 ```
+
 
 And when v reaches 30 mV (the neuron fires a spike):
 ```
